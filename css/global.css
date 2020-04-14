@@ -1,0 +1,537 @@
+@media (max-width: 2000px) {
+main {
+  width : 100vw ;}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  }
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom : 50px;
+  width: 100vw;
+  height: 60px;
+  background-color : transparent;
+  z-index: 10;
+}
+
+main {
+  padding-top: 44.5%;
+}
+
+nav main {
+  padding-top: 10px;
+  text-align : right;
+  padding-right: 7%;
+}
+
+nav main a {
+  text-decoration: none;
+  color: white;
+  font-family: sans-serif;
+  padding-right: 75px;
+  padding-bottom : 50px;
+  margin-top :10px;
+  font-size : 20px;
+  width :50px;
+       height : 50px;
+}
+
+.kotak { width : 90%;
+        height : 100%;
+        margin-left : 5%;
+        margin-right : 5%;
+        text-align : center;
+        float : left;
+          
+}
+
+.desc { width : 50%;
+        margin-top : 17vw;
+        float : left;
+        text-align : right;
+}
+
+.gridkiri { width : 50%;
+            height : 100%;
+            float : left;
+            text-align : right;
+}
+
+.gridkiripro { width : 48%;
+            height : 100%;
+            float : left;
+            text-align : right;
+}
+
+.gridkiripro2 {width : 52%;
+            height : 100%;
+            float : left;
+            text-align : right;
+}
+
+.gridkananpro2 { width : 48%;
+            height : 100%;
+            float : left;
+            text-align : left;
+}
+
+.synopsis { width : 80%;
+            height : 75%;
+            text-align : left;
+            margin-top :25%;
+            margin-left : 2%;
+  
+}
+
+.synopsis h5 { text-align : left;
+                
+  
+}
+
+
+.synopsiskiri { width : 80%;
+            height : 75%;
+            text-align : right;
+            margin-top :30%;
+            margin-left : 15%;
+  
+}
+
+.synopsiskiri h5 { text-align : left;
+                
+  
+}
+
+.trailer { width : 85%;
+           height : 40%;
+           margin-left : 11%;
+           margin-top : 27%;
+           background-size : cover;
+}
+
+.officialtrailer {
+    width : 85%;
+    height : 10%;
+    margin-left : 13%;
+}
+
+
+
+.gridkanan { width : 50%;
+            height : 100%;
+            float : left;
+            text-align : left;
+}
+
+
+.scroll { width : 100%;
+          height : 78.9vh;
+          display : flex;
+          overflow-x : auto;
+        
+}
+
+.gridkiri h5 {text-align : right;
+              margin-left : 20%;
+              font-size : 19px;
+}
+
+.gridkiri h3 {text-align : right;
+              margin-left : 20%;
+              color : white;
+}
+
+.gridkiri h6 {
+              color : yellow;
+}
+
+.gridkiripro h5 {text-align : right;
+              margin-left : 20%;
+              font-size : 19px;
+}
+
+.gridkiripro h3 {text-align : right;
+              margin-left : 20%;
+              color : white;
+}
+
+.gridkiripro h6 {
+              color : yellow;
+}
+
+.gridkananpro2 h5 {text-align : left;
+              margin-left : 2%;
+               margin-right : 25%;
+              font-size : 19px;
+}
+
+.gridkananpro2 h3 {text-align : left;
+              margin-left : 2%;
+               margin-right : 25%;
+              color : white;
+}
+
+.gridkananpro2 h6 {text-align : left;
+              margin-left : 2%;
+              margin-right : 25%;
+              color : yellow;
+}
+
+
+.gridkiricast h5 {text-align : right;
+              margin-left : 20%;
+              font-size : 19px;
+}
+
+.gridkiricast h3 {text-align : right;
+              margin-left : 20%;
+              color : white;
+}
+
+.gridkiricast h6 {
+              color : yellow;
+}
+
+.logo {
+  float : left;
+  margin-right : 50px;
+  transition :0.5s;
+  background-image: url('../image/logo.png')
+}
+
+.marginnav { width : 100px;
+             background-color : yellow}
+
+
+
+.bio {
+  float : left;
+  margin-right : 50px;
+  transition :0.5s;
+  margin-top :20px;
+}
+
+
+.bio2 {
+  height : 10px;
+  float : left;
+  margin-left : 7px;
+  transition :0.5s;
+  
+}
+
+.bio3 {
+  width : 80px;
+  height :100px;
+  margin-right : 20px;
+  margin-top : 3px;
+  transition :0.5s;
+  float : left;
+}
+
+.bio3 img {
+  width : 60%;
+  height :auto;
+ 
+}
+
+
+
+.full {
+  background-image: url('../image/p.jpg');
+  background-repeat: no-repeat;
+  background-size : cover;
+  float: left;
+  height :45vw;
+  
+}
+.fulll {
+  background-image: url('../image/oscarr.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size : cover;
+  float: left;
+  height :45vw;
+  
+}
+
+.fullll {
+  background-image: url('../image/harry5.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size : cover;
+  float: left;
+  height :45vw;
+  
+}
+
+.fulllll {
+  background-image: url('../image/cinema.jpg');
+  background-size : cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  float: left;
+  height :45vw;
+  
+}
+
+.full1 {
+  background-image: url('../image/background.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size : cover;
+  
+}
+
+.full2 {
+  background-image: url('../image/background.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size : cover;
+}
+
+.full3 {
+  background-position: center;
+  background-repeat: no-repeat;
+
+}
+
+.full4 {
+  background-image: url('../image/3.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size : cover;
+
+}
+
+.full5 {
+  background-image: url('../image/background.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size : cover;
+  height : 50vw;
+
+}
+
+.kotaknews {
+  width : 80vw;
+  height : 20vw;
+  margin-left : 12.5vw;
+  float: left;
+ 
+}
+.news {
+  width : 23vw;
+  height : 15vw;
+  background-color : white;
+  float : left;
+  margin-right : 3vw;
+  margin-top : 3vw;
+  opacity : 50%;
+}
+
+
+.kotak3news {
+  width: 85vw;
+  height : 23vw;
+  float: left;
+  
+  
+}
+.newsdesc
+  {width : 23vw;
+   height : 4vw;
+   background-color : yellow;
+   float: left;
+   text-align : center;
+   padding-top : 13px;
+   
+}
+
+
+
+.news img {
+  height: 15vw;
+  width : 23vw;
+}
+
+.news:hover {
+  opacity : 100%;
+  
+}
+
+section {
+  width: 100%;
+  height: 100vh;
+  position: relative
+}
+
+nav main a:hover {
+  text-decoration: none;
+  color: yellow;
+}
+
+
+ 
+  
+.cont {
+  background-color : white;
+  width: 200px;
+  height : 50px;
+  text-align : center;
+  margin-left : 43%;
+  border-radius : 10px;
+  
+}
+
+.cont :hover {
+  background-color : black;
+  width: 200px;
+  height : 40px;
+  text-align : center;
+  border-radius : 10px;
+  
+}
+
+
+.contt {
+  background-color : black;
+  width: 235px;
+  height : 50px;
+  text-align : center;
+  margin-left : 66%;
+  border-radius : 10px;
+  opacity : 70%;
+
+}
+
+.contt :hover {
+  background-color : black;
+  width: 235px;
+  height : 37px;
+  text-align : center;
+  border-radius : 12px;
+  font-family :'raleway-regular';
+  font-size : 18px;
+  padding-top : 14px;
+  color : yellow ;
+  margin-bottom : 10px;
+  text-align : center;
+  transition : 0.2s;
+}
+
+
+section a {text-decoration : none;}
+
+.newt {
+  background-image : url('../image/newt2.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size : cover;
+  width : 100%;
+  height : 100%;
+}
+
+
+
+nav h2:hover {
+  color: yellow;
+  cursor:pointer;
+  transition :0.3s;
+  font-size : 22px;
+}
+
+nav h3:hover {
+  color: yellow;
+  cursor:pointer;
+  transition :0.3s;
+  font-size : 22px;
+}
+
+.castbox {
+  width : 100%;
+  height : 31%;
+
+  float: left;
+  
+}
+
+.boxscroll {
+    width : 92%;
+    height : 100%;
+    margin-left : 5%;
+    
+    overflow-x : auto;
+    
+    
+
+}
+
+
+
+
+.cast {
+  width : 150px;
+  height : 190px;
+  background-color : white;
+  margin-right : 1%;
+  float : left;
+  margin-bottom : 1%;
+}
+
+.castdesc {
+  width : 150px;
+  height : 15%;
+  background-color : black;
+  opacity : 60%;
+}
+
+.castdesc h5 {font-size : 12px;
+padding-top : 8px;
+        
+}
+
+
+.newtbox {  width : 80%;
+            height : 75%;
+            text-align : right;
+            margin-top :25%;
+            margin-left : 18%;}
+            
+.gridkiricast { width : 50%;
+               height : 70%;
+               float : left;
+               text-align : right;
+}
+
+.jkrowling   {width : 80%;
+              height : 80%;
+              background-image : url('../image/jk.jpg');
+              background-position: center;
+              background-repeat: no-repeat;
+              background-size : cover;}
+              
+.david       {width : 60%;
+              height : 80%;
+              margin-left : 38%;
+              background-image : url('../image/david.jpg');
+              background-position: center;
+              background-repeat: no-repeat;
+              background-size : cover;}
+              
+.kotakcast{
+  width : 100%;
+  height : 85%;
+  opacity : 40%;
+  
+  
+}
+
+.kotakcast:hover{
+  opacity : 100%;
+}
