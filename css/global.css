@@ -392,14 +392,14 @@ nav main a {
 
 .kotaknews {
   width : 80vw;
-  height : 20vw;
+  height : 30vw;
   margin-left : 12.5vw;
   float: left;
  
 }
 .news {
   width : 23vw;
-  height : 15vw;
+  height : 20vw;
   background-color : white;
   float : left;
   margin-right : 3vw;
@@ -408,13 +408,7 @@ nav main a {
 }
 
 
-.kotak3news {
-  width: 85vw;
-  height : 23vw;
-  float: left;
   
-  
-}
 .newsdesc
   {width : 23vw;
    height : 4vw;
@@ -456,7 +450,7 @@ nav main a:hover {
   width: 200px;
   height : 50px;
   text-align : center;
-  margin-left : 43%;
+  margin-left : 50%;
   border-radius : 10px;
   
 }
@@ -942,7 +936,6 @@ nav main a {
         margin-right : 5%;
         text-align : center;
         float : left;
-          
 }
 
 .desc { width : 50%;
@@ -951,10 +944,10 @@ nav main a {
         text-align : right;
 }
 
-.gridkiri { width : 50%;
-            height : 100%;
+.gridkiri { width : 100%;
+            height : 30%;
             float : left;
-            text-align : right;
+            text-align : center;
 }
 
 .gridkiripro { width : 48%;
@@ -978,8 +971,7 @@ nav main a {
 .synopsis { width : 80%;
             height : 75%;
             text-align : left;
-            margin-top :25%;
-            margin-left : 2%;
+            margin-left : 20%;
   
 }
 
@@ -1002,9 +994,9 @@ nav main a {
   
 }
 
-.trailer { width : 85%;
-           height : 40%;
-           margin-left : 11%;
+.trailer { width : 90%;
+           height : 38%;
+           margin-left : 5%;
            margin-top : 27%;
            background-size : cover;
 }
@@ -1012,7 +1004,9 @@ nav main a {
 .officialtrailer {
     width : 85%;
     height : 10%;
-    margin-left : 13%;
+    margin-left : 14%;
+    margin-top :12%;
+    
 }
 
 
@@ -1023,15 +1017,15 @@ nav main a {
             text-align : left;
 }
 
-.gridkanansyn { width : 50%;
-            height : 100%;
+.gridkanansyn { width : 80%;
+            height : 60%;
             float : left;
-            text-align : left;
+            text-align : center;
 }
 
 
 .scroll { width : 100%;
-          height : 78.9vh;
+          height : 25vh;
           display : flex;
           overflow-x : auto;
         
@@ -1135,7 +1129,7 @@ nav main a {
   background-repeat: no-repeat;
   background-size : cover;
   float: left;
-  height :45vw;
+  height :50vw;
   
 }
 .fulll {
@@ -1144,7 +1138,7 @@ nav main a {
   background-repeat: no-repeat;
   background-size : cover;
   float: left;
-  height :45vw;
+  height :50vw;
   
 }
 
@@ -1186,6 +1180,7 @@ nav main a {
 .fullnewt {
   background-position: center;
   background-repeat: no-repeat;
+  
 
 }
 
@@ -1282,50 +1277,53 @@ nav main a {
   background-position: center;
   background-repeat: no-repeat;
   background-size : cover;
-  height : 50vw;
+  height : 200vh;
 
 }
 
 .kotaknews {
   width : 80vw;
-  height : 20vw;
+  height : 50vw;
   margin-left : 12.5vw;
   float: left;
  
 }
+
+
+ 
+}
 .news {
-  width : 23vw;
-  height : 15vw;
+  width : 70vw;
+  height : 50vw;
   background-color : white;
   float : left;
   margin-right : 3vw;
   margin-top : 3vw;
   opacity : 50%;
+  margin-bottom : 5vw;
 }
 
 
-.kotak3news {
-  width: 85vw;
-  height : 23vw;
-  float: left;
+
   
-  
-}
+
 .newsdesc
-  {width : 23vw;
-   height : 4vw;
+  {width : 70vw;
+   height : 10vw;
    background-color : yellow;
    float: left;
    text-align : center;
    padding-top : 13px;
+   font-size : 30px;
    
 }
 
 
 
 .news img {
-  height: 15vw;
-  width : 23vw;
+  width : 70vw;
+  height: 40vw;
+  
 }
 
 .news:hover {
@@ -1342,6 +1340,13 @@ section {
 nav main a:hover {
   text-decoration: none;
   color: yellow;
+  
+}
+
+nav main a h2 :hover {
+  text-decoration: none;
+  color: yellow;
+  
 }
 
 
@@ -1352,8 +1357,8 @@ nav main a:hover {
   width: 250px;
   height : 50px;
   text-align : center;
-  margin-left : 36%;
-  margin-top : 64%;
+  margin-left : 37%;
+
   border-radius : 10px;
   opacity : 50%;
   
@@ -1376,7 +1381,7 @@ nav main a:hover {
   width: 235px;
   height : 50px;
   text-align : center;
-  margin-left : 66%;
+  margin-left : 52%;
   border-radius : 10px;
   opacity : 70%;
 
@@ -1554,7 +1559,7 @@ nav h3:hover {
   color: yellow;
   cursor:pointer;
   transition :0.3s;
-  font-size : 22px;
+  font-size : 30px;
 }
 
 .castbox {
@@ -1705,6 +1710,7 @@ padding-top : 8px;
 }
 
 .descwhy h6 { color : yellow;
+              font-size : 35px;
         
 }
 
@@ -1717,10 +1723,11 @@ padding-top : 8px;
 }
 
 .whyisi h6 { color : yellow ;
-             font-size : 20px;}
+             font-size : 35px;}
             
 .whyisi h5 {text-align : left;
             margin-bottom :90px;
+            font-size : 22px;
 }
 
 .oscarr {width :100%;
@@ -1749,7 +1756,7 @@ padding-top : 8px;
 
 .naginii
 {width : 100%;
-height : 50vh;
+height : 23vh;
 background-image: url('../image/meledictus2.jpg');
 }
 
