@@ -450,7 +450,7 @@ nav main a:hover {
   width: 200px;
   height : 50px;
   text-align : center;
-  margin-left : 50%;
+  margin-left : 43%;
   border-radius : 10px;
   
 }
@@ -854,424 +854,84 @@ background-image: url('../image/harry.jpg');
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media (max-width: 1024px) {
-main {
-  width : 100vw ;}
-
-
-
-
-
-* {
-  margin: 0;
-  padding: 0;
+@media (max-width: 1000px) {
+  
+.full4 {
+  background-image: url('../image/homeee2.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size : cover;
+}
+  
+.cont {
+  background-color : white;
+  width: 200px;
+  height : 50px;
+  text-align : center;
+  margin-top  : 65%;
+  margin-left : 39%;
+  border-radius : 10px;
   
 }
 
-nav {
-  position: fixed;
-  top: 0;
-  left: 0;
-  bottom : 50px;
-  width: 100vw;
-  height: 60px;
-  background-color : transparent;
-  z-index: 10;
-}
-
-main {
-  padding-top: 44.5%;
-}
-
-nav main {
-  padding-top: 10px;
-  text-align : right;
-  padding-right: 7%;
-}
-
-nav main a {
-  text-decoration: none;
-  color: white;
-  font-family: sans-serif;
-  padding-right: 75px;
-  padding-bottom : 50px;
-  margin-top :10px;
-  font-size : 20px;
-  width :50px;
-       height : 50px;
-}
-
-.kotak { width : 90%;
-        height : 100%;
-        margin-left : 5%;
-        margin-right : 5%;
-        text-align : center;
-        float : left;
-}
-
-.desc { width : 50%;
-        margin-top : 17vw;
-        float : left;
-        text-align : right;
-}
-
-.gridkiri { width : 100%;
-            height : 30%;
-            float : left;
-            text-align : center;
-}
-
-.gridkiripro { width : 48%;
-            height : 100%;
-            float : left;
-            text-align : right;
-}
-
-.gridkiripro2 {width : 52%;
-            height : 100%;
-            float : left;
-            text-align : right;
-}
-
-.gridkananpro2 { width : 48%;
-            height : 100%;
-            float : left;
-            text-align : left;
-}
-
-.synopsis { width : 80%;
-            height : 75%;
-            text-align : left;
-            margin-left : 20%;
+.cont :hover {
+  background-color : black;
+  width: 200px;
+  height : 40px;
+  text-align : center;
+  border-radius : 10px;
   
 }
-
-.synopsis h5 { text-align : left;
-                
   
-}
-
-
-.synopsiskiri { width : 80%;
-            height : 75%;
-            text-align : right;
-            margin-top :30%;
-            margin-left : 15%;
-  
-}
-
-.synopsiskiri h5 { text-align : left;
-                
-  
-}
-
-.trailer { width : 90%;
-           height : 38%;
-           margin-left : 5%;
-           margin-top : 27%;
-           background-size : cover;
-}
-
-.officialtrailer {
-    width : 85%;
-    height : 10%;
-    margin-left : 14%;
-    margin-top :12%;
-    
-}
-
-
-
-.gridkanan { width : 50%;
-            height : 100%;
-            float : left;
-            text-align : left;
-}
-
-.gridkanansyn { width : 80%;
-            height : 60%;
-            float : left;
-            text-align : center;
-}
-
-
 .scroll { width : 100%;
           height : 25vh;
           display : flex;
           overflow-x : auto;
         
 }
-
-.gridkiri h5 {text-align : right;
-              margin-left : 20%;
-              font-size : 19px;
-}
-
-.gridkiri h3 {text-align : right;
-              margin-left : 20%;
-              color : white;
-}
-
-.gridkiri h6 {
-              color : yellow;
-}
-
-
-.gridkanan h5 {text-align : left;
-              margin-left : 2%;
-               margin-right : 25%;
-              font-size : 19px;
-}
-
-.gridkanan h3 {text-align : left;
-              margin-left : 2%;
-               margin-right : 25%;
-              color : white;
-}
-
-.gridkanan h6 {text-align : left;
-              margin-left : 2%;
-              margin-right : 25%;
-              color : yellow;
-}
-
-
-.gridkiricast h5 {text-align : right;
-              margin-left : 20%;
-              font-size : 19px;
-}
-
-.gridkiricast h3 {text-align : right;
-              margin-left : 20%;
-              color : white;
-}
-
-.gridkiricast h6 {
-              color : yellow;
-}
-
-.logo {
-  float : left;
-  margin-right : 50px;
-  transition :0.5s;
-  background-image: url('../image/logo.png')
-}
-
-.marginnav { width : 100px;
-             background-color : yellow}
-
-
-
-.bio {
-  float : left;
-  margin-right : 50px;
-  transition :0.5s;
-  margin-top :20px;
-}
-
-
-.bio2 {
-  height : 10px;
-  float : left;
-  margin-left : 7px;
-  transition :0.5s;
   
-}
-
-.bio3 {
-  width : 80px;
-  height :100px;
-  margin-right : 20px;
-  margin-top : 3px;
-  transition :0.5s;
+.news {
+  width : 60vw;
+  height : 40vw;
+  background-color : white;
   float : left;
+  margin-right : 3vw;
+  margin-top : 5vw;
+  opacity : 50%;
+  margin-bottom : 8vh;
 }
 
-.bio3 img {
-  width : 60%;
-  height :auto;
+
+  
+.newsdesc
+  {width : 60vw;
+   height : 10vw;
+   background-color : yellow;
+   float: left;
+   text-align : center;
+   padding-top : 13px;
+   font-size : 30px;
+}
+
+.kotaknews {
+  width : 80vw;
+  height : 30vw;
+  margin-left : 20vw;
+  float: left;
  
 }
 
 
+.news img {
+  height: 40vw;
+  width : 60vw;
+}
 
-.full {
-  background-image: url('../image/p.jpg');
-  background-repeat: no-repeat;
-  background-size : cover;
-  float: left;
-  height :50vw;
+.news:hover {
+  opacity : 100%;
   
 }
-.fulll {
-  background-image: url('../image/oscarr.jpg');
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size : cover;
-  float: left;
-  height :50vw;
   
-}
-
-.fullll {
-  background-image: url('../image/harry5.jpg');
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size : cover;
-  float: left;
-  height :45vw;
-  
-}
-
-.fulllll {
-  background-image: url('../image/cinema.jpg');
-  background-size : cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  float: left;
-  height :45vw;
-  
-}
-
-.full1 {
-  background-image: url('../image/background.jpg');
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size : cover;
-  
-}
-
-.full2 {
-  background-image: url('../image/background.jpg');
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size : cover;
-}
-
-.fullnewt {
-  background-position: center;
-  background-repeat: no-repeat;
-  
-
-}
-
-.fulltina {
-  background-position: center;
-  background-repeat: no-repeat;
-
-}
-
-.fullqueenie {
-  background-position: center;
-  background-repeat: no-repeat;
-
-}
-
-.fulljacob {
-  background-position: center;
-  background-repeat: no-repeat;
-
-}
-
-.fullgrindelwald {
-  background-position: center;
-  background-repeat: no-repeat;
-
-}
-
-.fulldumbledore {
-  background-position: center;
-  background-repeat: no-repeat;
-
-}
-
-.fulltheseus {
-  background-position: center;
-  background-repeat: no-repeat;
-
-}
-
-.fullcredence {
-  background-position: center;
-  background-repeat: no-repeat;
-
-}
-
-.fullmary {
-  background-position: center;
-  background-repeat: no-repeat;
-
-}
-
-.fullmeledictus {
-  background-position: center;
-  background-repeat: no-repeat;
-
-}
-
-.fullleta {
-  background-position: center;
-  background-repeat: no-repeat;
-
-}
-
-.fullyusuf {
-  background-position: center;
-  background-repeat: no-repeat;
-
-}
-
-.fullflamel {
-  background-position: center;
-  background-repeat: no-repeat;
-
-}
-
-.fullseraphina {
-  background-position: center;
-  background-repeat: no-repeat;
-
-}
-
-
-
-.full4 {
-  background-image: url('../image/homeee2.jpg');
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size : cover;
-
-}
-
 .full5 {
   background-image: url('../image/background.jpg');
   background-position: center;
@@ -1281,132 +941,54 @@ nav main a {
 
 }
 
-.kotaknews {
-  width : 80vw;
-  height : 50vw;
-  margin-left : 12.5vw;
-  float: left;
- 
-}
-
-
- 
-}
-.news {
-  width : 70vw;
-  height : 50vw;
-  background-color : white;
-  float : left;
-  margin-right : 3vw;
-  margin-top : 3vw;
-  opacity : 50%;
-  margin-bottom : 5vw;
-}
-
-
-
-  
-
-.newsdesc
-  {width : 70vw;
-   height : 10vw;
-   background-color : yellow;
-   float: left;
-   text-align : center;
-   padding-top : 13px;
-   font-size : 30px;
-   
-}
-
-
-
-.news img {
-  width : 70vw;
-  height: 40vw;
-  
-}
-
-.news:hover {
-  opacity : 100%;
-  
-}
-
-section {
-  width: 100%;
-  height: 100vh;
-  position: relative
-}
-
-nav main a:hover {
-  text-decoration: none;
-  color: yellow;
-  
-}
-
-nav main a h2 :hover {
-  text-decoration: none;
-  color: yellow;
-  
-}
-
-
- 
-  
-.cont {
-  background-color : white;
-  width: 250px;
-  height : 50px;
-  text-align : center;
-  margin-left : 37%;
-
-  border-radius : 10px;
-  opacity : 50%;
-  
-}
-
-.cont :hover {
-  background-color : black;
-  width: 250px;
-  height : 40px;
-  text-align : center;
-  border-radius : 10px;
-  opacity : 50%;
-  transition : 0.3s;
-  
-}
-
-
 .contt {
   background-color : black;
   width: 235px;
   height : 50px;
   text-align : center;
-  margin-left : 52%;
+  margin-left : 53%;
   border-radius : 10px;
   opacity : 70%;
 
 }
 
-.contt :hover {
-  background-color : black;
-  width: 235px;
-  height : 37px;
-  text-align : center;
-  border-radius : 12px;
-  font-family :'raleway-regular';
-  font-size : 18px;
-  padding-top : 14px;
-  color : yellow ;
-  margin-bottom : 10px;
-  text-align : center;
-  transition : 0.2s;
+.gridkiri { width : 100%;
+            height : 40%;
+            float : left;
+            text-align : right;
 }
 
+.trailer { width : 69%;
+           height : 40%;
+            
+           margin-top : 27%;
+          
+}
 
-section a {text-decoration : none;}
+.officialtrailer {
+    width : 85%;
+    height : 10%;
+    margin-left : 13%;
+    margin-top : 5%;
+}
 
+.gridkanansyn { width : 90%;
+            height : 50%;
+            margin-left : 5%;
+            float : left;
+            text-align : left;
+}
+
+.synopsis { width : 80%;
+            height : 75%;
+            text-align : left;
+            margin-right : 10%;
+            margin-left : 10%;
+            margin-top : 2%;
+  
+}
 .castt {
-  background-image : url('../image/allcast.jpg');
+  background-image : url('../image/allcastmobile.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size : cover;
@@ -1414,7 +996,7 @@ section a {text-decoration : none;}
   height : 100%;
 }
 .newt {
-  background-image : url('../image/newt2.jpg');
+  background-image : url('../image/newtmobile.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size : cover;
@@ -1423,7 +1005,7 @@ section a {text-decoration : none;}
 }
 
 .tina {
-  background-image : url('../image/tina2.jpg');
+  background-image : url('../image/tinamobile.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size : cover;
@@ -1432,7 +1014,7 @@ section a {text-decoration : none;}
 }
 
 .queenie {
-  background-image : url('../image/queenie2.jpg');
+  background-image : url('../image/queeniemobile.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size : cover;
@@ -1442,7 +1024,7 @@ section a {text-decoration : none;}
 
 
 .jacob {
-  background-image : url('../image/jacob2.jpg');
+  background-image : url('../image/jacobmobile.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size : cover;
@@ -1452,7 +1034,7 @@ section a {text-decoration : none;}
 
 
 .grindelwald {
-  background-image : url('../image/johnny3.jpg');
+  background-image : url('../image/gallertmobile.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size : cover;
@@ -1461,7 +1043,7 @@ section a {text-decoration : none;}
 }
 
 .dumbledore {
-  background-image : url('../image/dumbledore4.jpg');
+  background-image : url('../image/dumbledoremobile.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size : cover;
@@ -1470,7 +1052,7 @@ section a {text-decoration : none;}
 }
 
 .theseus {
-  background-image : url('../image/theseus2.jpg');
+  background-image : url('../image/theseusmobile.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size : cover;
@@ -1479,7 +1061,7 @@ section a {text-decoration : none;}
 }
 
 .credence {
-  background-image : url('../image/credence2.jpg');
+  background-image : url('../image/credencemobile.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size : cover;
@@ -1488,7 +1070,7 @@ section a {text-decoration : none;}
 }
 
 .mary {
-  background-image : url('../image/mary2.jpg');
+  background-image : url('../image/marymobile.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size : cover;
@@ -1497,7 +1079,7 @@ section a {text-decoration : none;}
 }
 
 .meledictus {
-  background-image : url('../image/meledictus.jpg');
+  background-image : url('../image/naginimobile.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size : cover;
@@ -1506,7 +1088,7 @@ section a {text-decoration : none;}
 }
 
 .leta {
-  background-image : url('../image/leta.jpg');
+  background-image : url('../image/letamobile.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size : cover;
@@ -1515,7 +1097,7 @@ section a {text-decoration : none;}
 }
 
 .yusuf {
-  background-image : url('../image/yusuf.jpg');
+  background-image : url('../image/yusufmobile.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size : cover;
@@ -1524,7 +1106,7 @@ section a {text-decoration : none;}
 }
 
 .flamel {
-  background-image : url('../image/flamel.jpg');
+  background-image : url('../image/flamelmobile.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size : cover;
@@ -1533,7 +1115,7 @@ section a {text-decoration : none;}
 }
 
 .seraphina {
-  background-image : url('../image/seraphina.jpg');
+  background-image : url('../image/seraphinamobile.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size : cover;
@@ -1541,25 +1123,10 @@ section a {text-decoration : none;}
   height : 100%;
 }
 
-
-
-
-
-
-
-
-nav h2:hover {
-  color: yellow;
-  cursor:pointer;
-  transition :0.3s;
-  font-size : 22px;
-}
-
-nav h3:hover {
-  color: yellow;
-  cursor:pointer;
-  transition :0.3s;
-  font-size : 30px;
+.gridkiricast { width : 50%;
+               height : 55%;
+               float : left;
+               text-align : right;
 }
 
 .castbox {
@@ -1573,7 +1140,7 @@ nav h3:hover {
 .boxscroll {
     width : 92%;
     height : 100%;
-    margin-left : 5%;
+    margin-left : 10%;
     
     overflow-x : auto;
     
@@ -1581,62 +1148,51 @@ nav h3:hover {
 
 }
 
-
-
-
-.cast {
-  width : 150px;
-  height : 190px;
-  background-color : white;
-  margin-right : 1%;
-  float : left;
-  margin-bottom : 1%;
-}
-
-.castdesc {
-  width : 150px;
-  height : 15%;
-  background-color : black;
-  opacity : 60%;
-}
-
-
-
-.castdesc h5 {font-size : 12px;
-padding-top : 8px;
-        
-}
-
-
-.newtbox {  width : 80%;
+.newtbox {  width : 90%;
             height : 75%;
             text-align : right;
-            margin-top :25%;
+            margin-top :35%;
             margin-left : 18%;}
             
             
 .newtbox2 {  width : 80%;
             height : 75%;
             text-align : right;
-            margin-top :23%;
+            margin-top :35%;
             margin-left : 18%;}
-            
-.gridkiricast { width : 50%;
-               height : 70%;
-               float : left;
-               text-align : right;
+
+.gridkanan { width : 100%;
+            height : 50%;
+            float : left;
+            text-align : left;
+            margin-left : 10%;
 }
 
 .jkrowling   {width : 80%;
-              height : 80%;
+              height : 60%;
+             
               background-image : url('../image/jk.jpg');
               background-position: center;
               background-repeat: no-repeat;
-              background-size : cover;}
+              background-size : cover;
+  
+}
+.synopsiskiri { width : 65%;
+            height : 50%;
+            text-align : left;
+            margin-top :30%;
+            margin-right : 20%;
+            margin-left : 18%;
+  
+}
+
+.synopsiskiri h5 { text-align : left;
+              margin-left : 0.1px
               
+}
 .david       {width : 60%;
-              height : 80%;
-              margin-left : 38%;
+              height : 100%;
+              margin-left : 20%;
               background-image : url('../image/david.jpg');
               background-position: center;
               background-repeat: no-repeat;
@@ -1652,7 +1208,7 @@ padding-top : 8px;
               
 .steve       {width : 60%;
               height : 80%;
-              margin-left : 38%;
+              margin-left : 20%;
               background-image : url('../image/steve.jpg');
               background-position: center;
               background-repeat: no-repeat;
@@ -1667,102 +1223,36 @@ padding-top : 8px;
               
 .james       {width : 60%;
               height : 80%;
-              margin-left : 38%;
+              margin-left : 20%;
               background-image : url('../image/james.jpg');
               background-position: center;
               background-repeat: no-repeat;
               background-size : cover;}
               
-.kotakcast{
-  width : 100%;
-  height : 85%;
-  opacity : 40%;
-  
-  
+
+                
+.gridkanan h5 {text-align : left;
+              margin-left : 10%;
+               
+              font-size : 19px;
 }
 
-.kotakcastselect{
-  width : 100%;
-  height : 85%;
-  
-  
+.gridkanan h3 {text-align : left;
+              margin-left : 10%;
+           
+              color : white;
 }
 
-.kotakcast:hover{
-  opacity : 100%;
-}
-
-
-.why {width :100%;
-      height : 30vw;
-  background-image: url('../image/p.jpg');
-  background-repeat: no-repeat;
-  background-size : cover;
-  float: left;
-}
-
-.descwhy { width : 75%;
-        margin-top : 12vw;
-        float : left;
-       margin-left : 25%;
-        text-align : left;
-        
-}
-
-.descwhy h6 { color : yellow;
-              font-size : 35px;
-        
+.gridkanan h6 {text-align : left;
+              margin-left : 10%;
+             
+              color : yellow;
 }
 
 
-.whyisi{ width : 50%;
-          height : 200vh;
-          margin-left : 25%;
-          
-          
-}
 
-.whyisi h6 { color : yellow ;
-             font-size : 35px;}
-            
-.whyisi h5 {text-align : left;
-            margin-bottom :90px;
-            font-size : 22px;
-}
 
-.oscarr {width :100%;
-      height : 30vw;
-  background-image: url('../image/oscarrr.jpg');
-  background-repeat: no-repeat;
-  background-size : cover;
-  float: left;
-}
 
-.oscarr {width :100%;
-      height : 30vw;
-  background-image: url('../image/harry7.jpg');
-  background-repeat: no-repeat;
-  background-size : cover;
-  float: left;
-}
 
-.cinema {width :100%;
-      height : 30vw;
-  background-image: url('../image/cinema2.jpg');
-  background-repeat: no-repeat;
-  background-size : cover;
-  float: left;
-}
 
-.naginii
-{width : 100%;
-height : 23vh;
-background-image: url('../image/meledictus2.jpg');
 }
-
-.harry2 {width : 100%;
-height : 40vh;
-background-image: url('../image/harry.jpg');
- background-repeat: no-repeat;
-}
-
